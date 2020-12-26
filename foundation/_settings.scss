@@ -1,0 +1,42 @@
+// --- color ---
+$color-gray: #a9a9a9;
+$color-black: #0a0a0a;
+$color-white: #fafafa;
+
+$color-blue: #3333ff;
+$color-red: #c90926;
+
+// --- color brands---
+$color-twitter: #1DA1F2;
+
+
+// --- color set text ---
+$color-text-primary: $color-black;
+$color-text-secondary: $color-white;
+$color-text-sub: $color-gray;
+
+// --- color set background ---
+$color-body-background: $color-white;
+
+
+// --- font family ---
+
+$fontFamily-primary:"Noto Serif JP",
+"Times New Roman",
+"YuMincho",
+"Hiragino Mincho ProN",
+"Yu Mincho",
+"MS PMincho",
+serif;
+
+$fontFamily-gothic: 'Noto Sans JP',
+游ゴシック,
+'Yu Gothic',
+游ゴシック体,
+YuGothic,
+'ヒラギノ角ゴ Pro W3',
+'Hiragino Kaku Gothic Pro',
+'Meiryo UI',
+メイリオ,
+Meiryo,
+sans-serif;

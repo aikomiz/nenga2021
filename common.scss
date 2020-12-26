@@ -1,0 +1,150 @@
+/* ======================================
+ Foundation
+====================================== */
+
+@import 'foundation/settings';
+@import 'foundation/mixin';
+@import 'foundation/reset';
+@import 'foundation/base';
+
+/* ======================================
+ Layout
+====================================== */
+
+.l-content {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+
+  @include sp {
+    width: 100%;
+    padding: 0 3%;
+  }
+
+}
+
+.l-bar {
+  height: 62px;
+  background-image: url(./images/bar.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+
+  @include sp {
+    height: 32px;
+  }
+
+}
+
+header .l-bar {
+  margin-bottom: 30px;
+}
+
+footer .l-bar {
+  margin-top: 30px;
+}
+
+.img2021 {
+  img {
+    @include sp {
+      width: 80%;
+    }
+  }
+}
+
+.text-firstsentence {
+  line-height: 1.7;
+  font-size: 2.4rem;
+  margin: 40px 0;
+
+  @include sp {
+    font-size: 1.6rem;
+  }
+
+  .span {
+    display: inline-block;
+  }
+
+  .sp {
+    display: none;
+
+    @include sp {
+      display: block;
+    }
+  }
+
+
+
+}
+
+.l-photo {
+  margin-top: 20px;
+  margin-bottom: 60px;
+
+  figure {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid $color-gray;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+    @include sp {
+      padding: 6px;
+    }
+  }
+}
+
+.l-omikuji {
+  background-image: url(./images/bg-washi.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin: 60px 0;
+  padding: 60px 0;
+
+  .title {
+    font-size: 3.6rem;
+    margin-bottom: 24px;
+
+    @include sp {
+      font-size: 1.8rem;
+    }
+
+  }
+
+  .l-omikuji-block {
+    width: 320px;
+    margin: 0 auto;
+    cursor: pointer;
+
+    @include sp {
+      width: 80%;
+    }
+  }
+
+
+
+  .result {
+    border: 1px solid $color-black;
+    display: inline-block;
+    background-color: $color-white;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 2.4rem;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin: 20px 0 6px 0;
+  }
+}
+
+.twitter_share {
+  margin: 80px 0;
+  font-family: $fontFamily-gothic;
+
+
+  a {
+    background-color: $color-twitter;
+    color: $color-white;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1.6rem;
+    border-radius: 10px;
+  }
+}
