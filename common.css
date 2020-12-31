@@ -355,4 +355,13 @@ footer .l-bar {
   font-size: 1.6rem;
   border-radius: 10px;
 }
+
+.footer_text {
+  font-size: 1.2rem;
+  padding: .8em 0;
+  text-align: center;
+  font-family: "Noto Sans JP", 游ゴシック, "Yu Gothic", 游ゴシック体, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", メイリオ, Meiryo, sans-serif;
+  color: #fafafa;
+  background-color: #0a0a0a;
+}
 /*# sourceMappingURL=common.css.map */
